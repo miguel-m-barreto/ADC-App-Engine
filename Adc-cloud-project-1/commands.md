@@ -1,58 +1,58 @@
 # COMMANDS FOR RUNNING AND DEPLOYMENT
 ## GCLOUD
 ### Check gcloud version:
-gcloud -v
+    gcloud -v
 ### Login to gcloud:
-gcloud auth login
+    gcloud auth login
 ### Initialize gcloud:
-gcloud init
+    gcloud init
 
 ## GIT
 ### Check Git version:
-git -v 
+    git -v 
 ### Git help:
-git -h 
+    git -h 
 ### Clone a repository:
-git clone [link] 
+    git clone [link] 
 ### Check repository status:
-git status 
+    git status 
 ### Add all files to the repository:
-git add . 
+    git add . 
 ### Add a specific file to the repository:
-git add [file]
+    git add [file]
 ### Remove a file from the repository:
-git rm [file]
+    git rm [file]
 ### Remove a file from the repository and the local directory:
-git rm -f [file]
+    git rm -f [file]
 ### Commit the files to the repository:
-git commit -m "mensagem" 
+    git commit -m "mensagem" 
 ### Push the files to the repository (local to remote):
-git push 
+    git push 
 ### Pull the files from the repository (remote to local):
-git pull 
+    git pull 
 
 ## MAVEN
 ### Check Maven version:
-mvn -version 
+    mvn -version 
 ### Clean the project:
-mvn clean 
+    mvn clean 
 ### Run project tests (unit tests):
-mvn test 
+    mvn test 
 ### Verifies the project:
-mvn verify 
+    mvn verify 
 ### Generate the project site:
-mvn site 
+    mvn site 
 ### Compile the project:
-mvn compile
+    mvn compile
 ### Package the project:
-mvn package 
+    mvn package 
 ### Install the project:
-mvn install 
+    mvn install 
 ### Deploy the project (with the App Engine plugin):
-mvn appengine:deploy 
+    mvn appengine:deploy 
 ### Run the project (with the App Engine plugin):
-mvn appengine:run
+    mvn appengine:run
 
 ### Command used to run the project locally:
 ### Package the project and runs it locally:
-mvn package appengine:run 
+    mvn package appengine:run 
