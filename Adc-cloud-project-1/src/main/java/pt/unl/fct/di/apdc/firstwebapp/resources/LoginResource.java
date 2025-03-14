@@ -36,7 +36,7 @@ public class LoginResource {
 	public Response doLogin(LoginData data) {
 		LOG.fine("Login attempt by user: " + data.username);
 		
-		return Response.ok().build();
+		return Response.ok(new AuthToken(data.username)).build();
 	}
 	
 	@GET
