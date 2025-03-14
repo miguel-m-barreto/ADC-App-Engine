@@ -1,5 +1,5 @@
 #COMANDOS GCLOUD
-###versão do gcloud
+##versão do gcloud
 gcloud -v
 ###loga no gcloud
 gcloud auth login
