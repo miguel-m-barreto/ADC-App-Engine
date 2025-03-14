@@ -1,50 +1,58 @@
-# COMANDOS GCLOUD
-## versão do gcloud
+# COMMANDS FOR RUNNING AND DEPLOYMENT
+## GCLOUD
+### Check gcloud version:
 gcloud -v
-### loga no gcloud
+### Login to gcloud:
 gcloud auth login
-### inicializa o gcloud
+### Initialize gcloud:
 gcloud init
 
-# GIT
-## versão do git
+## GIT
+### Check Git version:
 git -v 
-## ajuda do git
+### Git help:
 git -h 
-## clona um repositório
+### Clone a repository:
 git clone [link] 
-## status do repositório
+### Check repository status:
 git status 
-## adiciona todos os arquivos
+### Add all files to the repository:
 git add . 
-## commita os arquivos
+### Add a specific file to the repository:
+git add [file]
+### Remove a file from the repository:
+git rm [file]
+### Remove a file from the repository and the local directory:
+git rm -f [file]
+### Commit the files to the repository:
 git commit -m "mensagem" 
-## envia os arquivos para o repositório
+### Push the files to the repository (local to remote):
 git push 
-## atualiza os arquivos do repositório
+### Pull the files from the repository (remote to local):
 git pull 
 
-# MAVEN
-## versão do maven
+## MAVEN
+### Check Maven version:
 mvn -version 
-## limpa o projeto
+### Clean the project:
 mvn clean 
-## roda os testes do projeto (testes unitários)
+### Run project tests (unit tests):
 mvn test 
-## verifica o projeto
+### Verifies the project:
 mvn verify 
-## gera o site do projeto
+### Generate the project site:
 mvn site 
-## compila o projeto
+### Compile the project:
 mvn compile
-## empacota o projeto
+### Package the project:
 mvn package 
-## instala o projeto
+### Install the project:
 mvn install 
-## faz o deploy do projeto
+### Deploy the project (with the App Engine plugin):
 mvn appengine:deploy 
-## roda o projeto
+### Run the project (with the App Engine plugin):
 mvn appengine:run
-## COMANDO USADO PARA CORRER O PROJETO LOCALMENTE
-## empacota e roda o projeto
+
+### Command used to run the project locally:
+### Package the project and runs it locally:
 mvn package appengine:run 
