@@ -6,7 +6,7 @@
     gcloud auth login
 ### Initialize gcloud:
     gcloud init
-
+&nbsp;
 ## GIT
 ### Check Git version:
     git -v 
@@ -30,7 +30,7 @@
     git push 
 ### Pull the files from the repository (remote to local):
     git pull 
-
+&nbsp;
 ## MAVEN
 ### Check Maven version:
     mvn -version 
@@ -52,7 +52,7 @@
     mvn appengine:deploy 
 ### Run the project (with the App Engine plugin):
     mvn appengine:run
-
+&nbsp;
 ### Command used to run the project locally:
 ### Package the project and runs it locally:
     mvn package appengine:run 
