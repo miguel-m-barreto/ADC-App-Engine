@@ -48,11 +48,20 @@
     mvn package 
 ### Install the project:
     mvn install 
+### Command used to run the project locally (Package the project and runs it locally):
+    mvn package appengine:run 
 ### Deploy the project (with the App Engine plugin):
     mvn appengine:deploy 
+or
+
+    mvn package appengine:deploy-Dapp.deploy.projectId=<id-da-aplicação> - Dapp.deploy.version=<version number>
+example:
+
+    mvnpackage appengine:deploy-Dapp.deploy.projectId=potente-galaxy-378715       –Dapp.deploy.version=1
+    
+. <id-da-aplicação> é o id único da vossa aplicação extraído da consola do Google Cloud (vimos no inicio)
+. <version number> é um numero que identifica a versão da aplicação (costuma ser crescente e começa em 1)
+
 ### Run the project (with the App Engine plugin):
     mvn appengine:run
-&nbsp;
-### Command used to run the project locally:
-### Package the project and runs it locally:
-    mvn package appengine:run 
+
