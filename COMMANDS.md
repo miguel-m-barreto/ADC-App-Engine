@@ -54,10 +54,10 @@
     mvn appengine:deploy 
 or
 
-    mvn package appengine:deploy-Dapp.deploy.projectId=<id-da-aplicação> - Dapp.deploy.version=<version number>
+    mvn package appengine:deploy -Dapp.deploy.projectId=<id-da-aplicação> -Dapp.deploy.version=<version number>
 example:
 
-    mvnpackage appengine:deploy-Dapp.deploy.projectId=potente-galaxy-378715       –Dapp.deploy.version=1
+    mvnpackage appengine:deploy -Dapp.deploy.projectId=shining-expanse-453014-c4 –Dapp.deploy.version=1.0
     
 - <id-da-aplicação> é o id único da vossa aplicação extraído da consola do Google Cloud (vimos no inicio)
 - <version number> é um numero que identifica a versão da aplicação (costuma ser crescente e começa em 1)
