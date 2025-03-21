@@ -1,4 +1,4 @@
-# COMMANDS FOR RUNNING AND DEPLOYMENT
+    # COMMANDS FOR RUNNING AND DEPLOYMENT
 ## GCLOUD
 ### Check gcloud version:
     gcloud -v
@@ -59,8 +59,8 @@ example:
 
     mvnpackage appengine:deploy-Dapp.deploy.projectId=potente-galaxy-378715       –Dapp.deploy.version=1
     
-. <id-da-aplicação> é o id único da vossa aplicação extraído da consola do Google Cloud (vimos no inicio)
-. <version number> é um numero que identifica a versão da aplicação (costuma ser crescente e começa em 1)
+- <id-da-aplicação> é o id único da vossa aplicação extraído da consola do Google Cloud (vimos no inicio)
+- <version number> é um numero que identifica a versão da aplicação (costuma ser crescente e começa em 1)
 
 ### Run the project (with the App Engine plugin):
     mvn appengine:run
