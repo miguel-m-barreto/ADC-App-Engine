@@ -2,8 +2,7 @@
  - ADC app engine classes
  - Cloud app id: shining-expanse-453014-c4
 
-# COMMANDS
-    # COMMANDS FOR RUNNING AND DEPLOYMENT
+# COMMANDS (RUNNING AND DEPLOYMENT)
 ## GCLOUD
 ### Check gcloud version:
     gcloud -v
